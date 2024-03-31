@@ -20,3 +20,12 @@ h2 {
 .rotated-mycontent {
   transform: rotate(-23deg); /* Rotate the content by -45 degrees */
 }
+
+/* responsive */
+@media (min-width: 0px) and (max-width: 767px) {
+  .mybanner-container {
+    background-size: 290% auto !important;
+    background-position: top right !important;
+    background-repeat: no-repeat !important;
+  }
+}
