@@ -6,3 +6,17 @@ h1,
 h2 {
   font-family: "Jost", sans-serif; /* Applying custom font */
 }
+
+/* banner section */
+
+.mybanner-container {
+  background-image: url("../images/Background.png");
+  /* background-image: url("../images/Pattern.png"); */
+  background-size: 58% auto;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.rotated-mycontent {
+  transform: rotate(-23deg); /* Rotate the content by -45 degrees */
+}
