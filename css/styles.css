@@ -34,9 +34,28 @@ h2 {
 .footerstyle {
   border-radius: 15px;
 }
-/* .btncolor {
+.footerBgColor {
+  background-color: #303030;
+}
+.white-icon {
+  filter: invert(1);
+}
+.mybtnColor {
   background-color: rgba(214, 223, 231, 0.616);
-} */
+}
+.mybtn {
+  background-color: rgba(214, 223, 231, 0.616);
+  border-style: none;
+  border-radius: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.mybtn:hover {
+  background-color: #303030a6;
+  color: white !important;
+}
 
 /* responsive */
 @media (min-width: 0px) and (max-width: 767px) {
