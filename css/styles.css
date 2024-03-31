@@ -19,6 +19,7 @@ h2 {
 
 .rotated-mycontent {
   transform: rotate(-23deg); /* Rotate the content by -45 degrees */
+  margin-bottom: 120px;
 }
 
 /* responsive */
