@@ -22,6 +22,22 @@ h2 {
   margin-bottom: 120px;
 }
 
+/* footer */
+
+.footer-container {
+  background-image: url("../images/footer/image.png");
+  /* background-image: url("./images/footer/image.png"); */
+  background-size: 100% auto;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.footerstyle {
+  border-radius: 15px;
+}
+/* .btncolor {
+  background-color: rgba(214, 223, 231, 0.616);
+} */
+
 /* responsive */
 @media (min-width: 0px) and (max-width: 767px) {
   .mybanner-container {
