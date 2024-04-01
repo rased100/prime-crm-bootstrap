@@ -61,6 +61,15 @@ h2 {
   padding-top: 8px;
   padding-bottom: 8px;
 }
+.mybtn2 {
+  background-color: #303030;
+  border-style: none;
+  border-radius: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .mybtn:hover {
   background-color: #303030a6;
   color: white !important;
@@ -148,6 +157,15 @@ h2 {
   background-repeat: no-repeat;
   border-radius: 25px;
   overflow: hidden;
+}
+
+/* module */
+.dashedBorder {
+  border: 3px dashed #dbdbdb;
+}
+
+.bgmodule {
+  background-color: #f9f9f9;
 }
 
 /* responsive */
