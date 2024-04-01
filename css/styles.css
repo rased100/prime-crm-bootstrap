@@ -56,6 +56,34 @@ h2 {
   background-color: #303030a6;
   color: white !important;
 }
+.boderT {
+  border-top: 1px solid #4a4a4a;
+}
+.borderB {
+  border-bottom: 1px solid #4a4a4a;
+}
+.borderL {
+  border-left: 1px solid #4a4a4a;
+}
+.borderR {
+  border-right: 1px solid #4a4a4a;
+}
+/*  */
+
+.bGtop {
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, #303030, #4a4a4a) 1;
+}
+.bGbottom {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, #303030, #4a4a4a) 1;
+}
+/*  */
+
+/* Explore Premium Features */
+.bgColorPf {
+  background-color: #f4f4f4;
+}
 
 /* responsive */
 @media (min-width: 0px) and (max-width: 767px) {
