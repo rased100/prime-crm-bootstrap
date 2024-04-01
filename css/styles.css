@@ -85,11 +85,48 @@ h2 {
   background-color: #f4f4f4;
 }
 
+/* management */
+.manageone-container {
+  background-image: url("../images/manage1/Background1.png");
+  background-size: 39% auto;
+  background-position: top left;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+}
+
+.custom-circle {
+  border-radius: 75px;
+  border: 12px solid #1eb1e5;
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.custom-bg {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* .managetwo-container {
+  background-image: url("../../assets/images/manage1/Background2.png");
+  background-size: 39% auto;
+  background-position: top right;
+  background-repeat: no-repeat;
+} */
+
 /* responsive */
 @media (min-width: 0px) and (max-width: 767px) {
   .mybanner-container {
     background-size: 290% auto !important;
     background-position: top right !important;
     background-repeat: no-repeat !important;
+  }
+}
+@media (min-width: 0px) and (max-width: 991px) {
+  /* management */
+  .manageone-container {
+    background-image: url("../images/manage1/Background1.png");
+    background-size: 90% auto;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
   }
 }
