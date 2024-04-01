@@ -85,13 +85,12 @@ h2 {
   background-color: #f4f4f4;
 }
 
-/* management */
-.manageone-container {
+/* management one */
+.manageOne-container {
   background-image: url("../images/manage1/Background1.png");
-  background-size: 39% auto;
+  background-size: 38% auto;
   background-position: top left;
   background-repeat: no-repeat;
-  /* height: 100vh; */
 }
 
 .custom-circle {
@@ -105,12 +104,14 @@ h2 {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-/* .managetwo-container {
-  background-image: url("../../assets/images/manage1/Background2.png");
-  background-size: 39% auto;
+/* management two */
+.manageTwo-container {
+  background-image: url("../images/manage1/Background2.png");
+  background-size: 38% auto;
   background-position: top right;
   background-repeat: no-repeat;
-} */
+  /* height: 100vh; */
+}
 
 /* responsive */
 @media (min-width: 0px) and (max-width: 767px) {
@@ -121,12 +122,14 @@ h2 {
   }
 }
 @media (min-width: 0px) and (max-width: 991px) {
-  /* management */
-  .manageone-container {
-    background-image: url("../images/manage1/Background1.png");
-    background-size: 90% auto;
+  /* management one */
+  .manageOne-container {
+    background-size: 70% auto;
     background-position: bottom left;
-    background-repeat: no-repeat;
-    /* height: 100vh; */
+  }
+  /* management two */
+  .manageTwo-container {
+    background-size: 70% auto;
+    background-position: bottom right;
   }
 }
