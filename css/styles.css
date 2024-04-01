@@ -52,6 +52,15 @@ h2 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.mybtn1 {
+  background-color: #4be3eb;
+  border-style: none;
+  border-radius: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 .mybtn:hover {
   background-color: #303030a6;
   color: white !important;
@@ -131,12 +140,32 @@ h2 {
   height: 146px;
 }
 
+/* sell service */
+.banner-sellserve {
+  background-image: url("../images/sellserve/Background.png");
+  background-size: 100% auto;
+  background-position: top;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
 /* responsive */
 @media (min-width: 0px) and (max-width: 767px) {
   .mybanner-container {
     background-size: 290% auto !important;
     background-position: top right !important;
     background-repeat: no-repeat !important;
+  }
+  /* sell service */
+  .banner-sellserve {
+    background-size: 250% auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* sell service */
+  .banner-sellserve {
+    background-size: 225% auto;
   }
 }
 @media (min-width: 0px) and (max-width: 991px) {
