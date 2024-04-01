@@ -56,7 +56,7 @@ h2 {
   background-color: #303030a6;
   color: white !important;
 }
-.boderT {
+.borderT {
   border-top: 1px solid #4a4a4a;
 }
 .borderB {
@@ -67,6 +67,18 @@ h2 {
 }
 .borderR {
   border-right: 1px solid #4a4a4a;
+}
+.borderT1 {
+  border-top: 1px solid #c5c5c5;
+}
+.borderB1 {
+  border-bottom: 1px solid #c5c5c5;
+}
+.borderL1 {
+  border-left: 1px solid #c5c5c5;
+}
+.borderR1 {
+  border-right: 1px solid #c5c5c5;
 }
 /*  */
 
@@ -111,6 +123,12 @@ h2 {
   background-position: top right;
   background-repeat: no-repeat;
   /* height: 100vh; */
+}
+
+/* trust */
+.imgCont {
+  width: 289px;
+  height: 146px;
 }
 
 /* responsive */
