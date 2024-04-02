@@ -251,4 +251,8 @@ h2 {
     background-size: 70% auto;
     background-position: bottom right;
   }
+  /* Delever */
+  .bgImgDelever {
+    background-size: 500% auto;
+  }
 }
