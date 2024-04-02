@@ -64,7 +64,7 @@ h2 {
 .mybtn2 {
   background-color: #303030;
   border-style: none;
-  border-radius: 2px;
+  border-radius: 8px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
@@ -168,6 +168,22 @@ h2 {
   background-color: #f9f9f9;
 }
 
+/* how it works */
+.how-container {
+  background-image: url("../images/howworks/image.png");
+  background-size: 30% auto;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.customBg {
+  background-color: #f6f6f6;
+}
+
+.myfont {
+  font-size: 10px;
+}
+
 /* responsive */
 @media (min-width: 0px) and (max-width: 767px) {
   .mybanner-container {
@@ -194,6 +210,11 @@ h2 {
   }
   /* management two */
   .manageTwo-container {
+    background-size: 70% auto;
+    background-position: bottom right;
+  }
+  /* how it works */
+  .how-container {
     background-size: 70% auto;
     background-position: bottom right;
   }
