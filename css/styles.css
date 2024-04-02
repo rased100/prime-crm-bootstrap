@@ -183,6 +183,9 @@ h2 {
 .myfont {
   font-size: 10px;
 }
+.fontColor {
+  color: #47cfff;
+}
 
 /* responsive */
 @media (min-width: 0px) and (max-width: 767px) {
