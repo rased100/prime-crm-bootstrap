@@ -207,6 +207,11 @@ h2 {
   color: #47cfff;
 }
 
+/* Carousel */
+.bgCarousel {
+  background-color: #303030;
+}
+
 /* Delever */
 .bgImgDelever {
   background-image: url("../images/delever/Background.png");
