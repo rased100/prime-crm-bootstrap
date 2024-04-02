@@ -226,6 +226,15 @@ h2 {
   overflow: hidden;
 }
 
+/* Footer */
+.cBorder {
+  border-top: 1px solid #4a4a4a;
+  border-right: 1px solid #4a4a4a;
+  border-bottom: 1px solid #4a4a4a;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
 /* responsive */
 @media (min-width: 0px) and (max-width: 767px) {
   .mybanner-container {
